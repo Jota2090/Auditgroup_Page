@@ -1,0 +1,91 @@
+a {
+  text-decoration: none;
+  color: teal;
+}
+
+a:hover {
+  color: black;
+}
+
+p {
+  margin: 0 0 10px;
+  line-height:1.8em;
+}
+
+.intro {
+  max-width: 550px;
+  margin: 50px 2%;
+}
+
+.tab-area {
+  width: 0px;
+  margin-left: 3%;
+  float: left;
+}
+
+input { 
+  display: none;
+}
+
+.tab-link {
+  cursor: pointer;
+  color: #555;
+  text-decoration: none;
+  display: block;
+  font-size: 1.11em;
+  float: left;
+  width: 250px;
+  padding: 5px 0;
+  text-align: center;
+  background: #E6E6E6;
+}
+
+.tab-link:hover {
+  background: #eee;
+}
+
+.tab-link:nth-of-type(1) {
+}
+
+.tab-link:hover {
+  padding-left:5px;
+}
+
+.tab {
+  clear: both;
+  display: none;
+  width: 600px;
+  position:relative;
+  left:290px;
+  bottom:300px;
+}
+
+.target-fix {
+  display: block;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+
+@media only screen and (max-width: 1150px) {
+
+  .tab-area {
+    width: 46%;
+    margin: 2% 2% 5%;
+    float: left;
+  }
+
+}
+
+@media only screen and (max-width: 560px) {
+  .tab-area {
+    width: 100%;
+    margin: 0 0 5%;
+    float: left;
+  }
+
+  .intro {
+    margin: 50px 0;
+  }
+}
